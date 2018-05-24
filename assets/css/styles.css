@@ -1,0 +1,74 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.upper-case{
+	text-transform: uppercase;
+}
+
+.center-pos{
+	text-align: center;
+}
+
+.date{
+	text-align:center;
+	color:#d1584b;
+	font-weight: bold
+}
+
+.event{
+	color:#377bb2;
+}
+
+.contact-info{
+	color:#377bb2;
+	text-decoration: underline;
+}
+
+.hr-gradient-transparent{
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.copyrights-relative{
+	text-align:center;
+	padding: 50px 20px;
+	background: #eeeeee;
+	margin-top: 50px;
+	position:relative;
+	bottom:0;
+	width:100%;
+}
+
+.copyrights-absolute{
+	text-align:center;
+	padding: 50px 20px;
+	background: #eeeeee;
+	margin-top: 50px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+.large-font{
+	font-size:1.25em;
+}
+
+#brand{
+	font-weight: bold;
+	font-size:1.5em;
+}
+
+#content{
+	padding-top: 50px;
+}
+
+
+
+
+

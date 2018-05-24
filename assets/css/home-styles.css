@@ -1,0 +1,29 @@
+html{
+	height:100%;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: url(../img/baby-simulator.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.upper-case{
+	text-transform: uppercase;
+}
+
+.large-font{
+	font-size:1.25em;
+}
+
+#content{
+	text-align: center;
+	padding-top: 25%;
+	color:white;
+}
+
+#brand{
+	font-weight: bold;
+	font-size:1.5em;
+}
