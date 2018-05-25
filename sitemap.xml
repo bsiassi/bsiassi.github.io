@@ -1,47 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
 
 <url>
-  <loc>http://www.vetspeds.com/</loc>
-  <lastmod>2018-05-24T22:30:57+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://www.vetspeds.com/simulation.html</loc>
-  <lastmod>2018-05-24T22:30:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.vetspeds.com/course.html</loc>
-  <lastmod>2018-05-24T22:30:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.vetspeds.com/contact.html</loc>
-  <lastmod>2018-05-24T22:30:57+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.vetspeds.com/index.html</loc>
-  <lastmod>2018-05-24T22:30:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.vetspeds.com/assets/pdf/Manual%205-11-2018.pdf</loc>
-  <lastmod>2018-05-24T22:30:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.vetspeds.com/assets/pdf/Brochure%202018%203-23-2018.pdf</loc>
-  <lastmod>2018-05-24T22:30:57+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>http://vetspeds.com/#</loc>
+<lastmod>2018-05-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
 </url>
 
+<url>
+<loc>http://vetspeds.com/simulation.html</loc>
+<lastmod>2018-05-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://vetspeds.com/course.html</loc>
+<lastmod>2018-05-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>https://www.google.com/webmasters/sitemaps/
+<loc>http://vetspeds.com/contact.html</loc>
+<lastmod>2018-05-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
 
 </urlset>
