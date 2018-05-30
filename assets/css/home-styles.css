@@ -7,6 +7,7 @@ body{
 	background: url(../img/baby-simulator.jpg);
 	background-position: center;
 	background-size: cover;
+  background-repeat:no-repeat;
 }
 
 
@@ -21,6 +22,19 @@ body{
   color: #fff;
 }
 
+#content{
+  position:relative;
+  text-align: center;
+  padding-top: 25%;
+  color:white;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #fff, #ccc);
+}
 
 .separator-container {
   text-align: center;
