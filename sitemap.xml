@@ -1,32 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
-
-<url>
-<loc>http://www.vetspeds.com/</loc>
-<lastmod>2018-05-30</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1.0</priority>
-</url>
-
- <url>
-<loc>http://www.vetspeds.com/vnets.html</loc>
-<lastmod>2018-05-30</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   
-<url>
-<loc>http://www.vetspeds.com/simulation.html</loc>
-<lastmod>2018-05-30</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+  <url>
+    <loc>http://www.vetspeds.com/</loc>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/baby-simulator.jpg</image:loc>
+       <image:caption>Virtual Neonatal Echocardiographic Training Simulator (VNETS)</image:caption>
+    </image:image>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-<loc>http://www.vetspeds.com/course.html</loc>
-<lastmod>2018-05-30</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+  <url>
+    <loc>http://www.vetspeds.com/vnets.html</loc>    
+  </url>
+
+  <url> 
+    <loc>http://www.vetspeds.com/simulation.html</loc> 
+    <video:video>
+      <video:player_loc allow_embed="yes">
+        https://www.youtube.com/embed/_oA7phF_zy4?rel=0
+      </video:player_loc>
+      <video:thumbnail_loc>
+        http://www.vetspeds.com/assets/img/video-thumbnail.jpg
+      </video:thumbnail_loc>
+      <video:title>
+        Echo Simulator Neonate, new born
+      </video:title>
+      <video:description>
+        This echocardiography simulator is specifically designed for learning neonatal and pediatric echocardiography
+      </video:description>
+    </video:video>
+
+    <!-- image part -->
+    <!-- LVO starts -->
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/LVO/1.png</image:loc>
+       <image:caption>Apical 5 chamber view -- 2D</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/LVO/2.png</image:loc>
+       <image:caption>Apical 5 chamber view -- color flow</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/LVO/3.png</image:loc>
+       <image:caption>PW Doppler, RR measurement, Tracing Spectral Doppler</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/LVO/4.png</image:loc>
+       <image:caption>Long axis view, Aortic diameter</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/LVO/5.png</image:loc>
+       <image:caption>Left Ventricle Report</image:caption>
+    </image:image>
+    <!-- LVO ends -->
+
+    <!-- TR starts -->
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/TR/1.png</image:loc>
+       <image:caption>Apical 4 cham view -- 2D</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/TR/2.png</image:loc>
+       <image:caption>Apical 4 cham view -- color flow</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/TR/4.png</image:loc>
+       <image:caption>CW Doppler, peak velocity measurement</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/TR/5.png</image:loc>
+       <image:caption>TR gradient report</image:caption>
+    </image:image>
+    <!-- TR ends -->
+
+    <!-- PDA starts -->
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/PDA/1.png</image:loc>
+       <image:caption>Suprasternal view of the PDA -- 2D</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/PDA/2.png</image:loc>
+       <image:caption>Suprasternal view of the PDA -- color flow</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/PDA/3.png</image:loc>
+       <image:caption>Measurement of PDA diameter</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/PDA/4.png</image:loc>
+       <image:caption>Measurement of peak velocity</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/PDA/5.png</image:loc>
+       <image:caption>PDA Report</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/PDA/6.png</image:loc>
+       <image:caption>Apical 4 chamber 2D</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/PDA/7.png</image:loc>
+       <image:caption>Apical 4 chamber end diastolic measurement</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/PDA/8.png</image:loc>
+       <image:caption>Apical 4 chamber end systolic measurement</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/PDA/9.png</image:loc>
+       <image:caption>PDA Report, Ejection Fraction by modified Simpson's rule.</image:caption>
+    </image:image>
+    <!-- PDA ends -->
+
+    <!-- coarct starts -->
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/Coarct/1.png</image:loc>
+       <image:caption>Suprasternal view of the aorta -- 2D</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/Coarct/2.png</image:loc>
+       <image:caption>Suprasternal view of the aorta -- color flow</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/Coarct/3.png</image:loc>
+       <image:caption>CW Dopper of descending aorta at coarctation site</image:caption>
+    </image:image>
+    <!-- coarct ends -->
+
+    <!-- critical AS starts -->
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/Critical AS/1.png</image:loc>
+       <image:caption>Apical 5 chamber view -- 2D</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/Critical AS/2.png</image:loc>
+       <image:caption>Apical 5 chamber view -- color flow</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/Critical AS/3.png</image:loc>
+       <image:caption>CW Doppler, demonstrating abnormal high gradient</image:caption>
+    </image:image>
+    <!-- critical AS ends -->
+
+    <!-- PA starts -->
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/PA/3.png</image:loc>
+       <image:caption>Parasternal long axis 2D-Color flow</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/PA/1.png</image:loc>
+       <image:caption>Suprasternal arch/duct view -- 2D</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/PA/2.png</image:loc>
+       <image:caption>Suprasternal arch/duct view -- color flow</image:caption>
+    </image:image>
+    <!-- PA ends -->
+    
+  </url>
+
+  <url>
+    <loc>http://www.vetspeds.com/course.html</loc>
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/course-time.jpg</image:loc>
+       <image:caption>neonatal echocardiography course time</image:caption>
+    </image:image> 
+    <image:image>
+       <image:loc>http://www.vetspeds.com/assets/img/course-schedule.jpg</image:loc>
+       <image:caption>neonatal echocardiography course schedule</image:caption>
+    </image:image>    
+  </url>
 
 </urlset>
